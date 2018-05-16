@@ -17,10 +17,9 @@ if ($_POST['pw'] == $sesion['PW'])
 {
   $_SESSION['username'] = $_POST['user'];
   echo "Sesion exitosa";
-
   }
   else {
-    echo "Combinacion errone";
+    echo "Combinación erronea";
 
 }
 
